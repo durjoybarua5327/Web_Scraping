@@ -1,3 +1,5 @@
+
+#This is for kind of revising
 import requests
 from bs4 import BeautifulSoup
 response = requests.get("https://www.tutorialsfreak.com/")
