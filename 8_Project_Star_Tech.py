@@ -9,8 +9,12 @@ prices = []
 descriptions = []
 
 for i in range(1, 10):
+    #this for shifting one page to another have a look on ancher tag href then make this
     url = "https://www.startech.com.bd/mobile-phone?filter_price=0-15000&page=" + str(i)
     response = requests.get(url)
+
+    #this is use for handle the Bengali currency symbol correctly
+    response.encoding = 'utf-8' 
     soup = BeautifulSoup(response.text, "lxml")
 
     box = soup.find("div", class_="main-content p-items-wrap")
