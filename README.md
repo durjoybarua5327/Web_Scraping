@@ -41,3 +41,4 @@ We will also work on a project where we'll scrape data from the StarTech website
 For more detailed Python tutorials, check out my [Basic Python Repository](https://github.com/durjoy5327/Python-Basic-and-DSA-Python-/tree/main/Python%20Basic).
 
 Happy scraping! 😊
+![Web Scraping GIF](hthttps://i.pinimg.com/originals/b0/1d/df/b01ddf257d18c8a9b41e0502161d580c.gif)
