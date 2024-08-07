@@ -30,15 +30,6 @@ We will also work on a project where we'll scrape data from the StarTech website
 ## Getting Started
 
 <ol>
-  <li><strong>Clone the Repository:</strong>
-    <pre><code>git clone https://github.com/durjoy5327/Web-Scraping-Tutorial.git</code></pre>
-  </li>
-  <li><strong>Navigate to the Project Directory:</strong>
-    <pre><code>cd Web-Scraping-Tutorial</code></pre>
-  </li>
-  <li><strong>Install the Required Libraries:</strong>
-    <pre><code>pip install -r requirements.txt</code></pre>
-  </li>
   <li><strong>Start Learning:</strong>
     <ul>
       <li>Begin with the basic tutorials to understand the fundamentals.</li>
