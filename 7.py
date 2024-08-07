@@ -1,3 +1,4 @@
+#I'm doing this project on Star Tech website
 import requests
 from bs4 import BeautifulSoup
 
@@ -35,3 +36,5 @@ for i in rows[1:]:
 
 print(data_frame)
 data_frame.to_csv("F:/Web_Scraping/ipl_auction_data.csv")
+
+#holla now you are ready for project
