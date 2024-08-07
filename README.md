@@ -29,15 +29,14 @@ We will also work on a project where we'll scrape data from the StarTech website
 
 ## Getting Started
 
-<ol>
-  <li><strong>Start Learning:</strong>
+
+  <strong>Start Learning:</strong>
     <ul>
       <li>Begin with the basic tutorials to understand the fundamentals.</li>
       <li>Gradually move to the advanced sections to deepen your knowledge.</li>
       <li>Work on the StarTech project to consolidate your learning.</li>
     </ul>
   </li>
-</ol>
 
 ## Additional Resources
 
