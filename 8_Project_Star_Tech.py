@@ -17,9 +17,12 @@ for i in range(1, 10):
     response.encoding = 'utf-8' 
     soup = BeautifulSoup(response.text, "lxml")
 
+
+    #this box is make for pulling specific areas data 
     box = soup.find("div", class_="main-content p-items-wrap")
 
     names = box.find_all("h4", class_="p-item-name")
+    
     for n in names:
         product_names.append(n.text)
 
