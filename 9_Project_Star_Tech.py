@@ -4,6 +4,7 @@ import pandas as pd
 #if ancher tag has no class then you have to think how to get href/link....
 #that is on task that how to get obviously you have to find like looping find
 
+
 product_names = []
 prices = []
 descriptions = []
@@ -16,7 +17,6 @@ for i in range(1, 10):
     #this is use for handle the Bengali currency symbol correctly
     response.encoding = 'utf-8' 
     soup = BeautifulSoup(response.text, "lxml")
-
 
     #this box is make for pulling specific areas data 
     box = soup.find("div", class_="main-content p-items-wrap")
