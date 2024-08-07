@@ -17,7 +17,6 @@ for i in range(1, 10):
     response.encoding = 'utf-8' 
     soup = BeautifulSoup(response.text, "lxml")
 
-
     #this box is make for pulling specific areas data 
     box = soup.find("div", class_="main-content p-items-wrap")
 
