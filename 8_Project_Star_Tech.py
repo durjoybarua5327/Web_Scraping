@@ -1,8 +1,9 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+#if ancher tag has no class then you have to think how to get href/link....
+#that is on task that how to get obviously you have to find like looping find
 
-# Initialized lists outside the loop to accumulate data from all pages
 product_names = []
 prices = []
 descriptions = []
