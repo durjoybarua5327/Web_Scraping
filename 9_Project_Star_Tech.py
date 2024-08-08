@@ -9,7 +9,7 @@ prices = []
 descriptions = []
 
 for i in range(1, 10):
-    #this for shifting one page to another have a look on ancher tag href then make this
+    #this is for shifting one page to another have a look on ancher tag href then make this
     url = "https://www.startech.com.bd/mobile-phone?filter_price=0-15000&page=" + str(i)
     response = requests.get(url)
 
