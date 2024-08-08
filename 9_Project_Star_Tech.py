@@ -42,7 +42,6 @@ dataframe = pd.DataFrame({
     "Descriptions": descriptions
 })
 
-# Corrected the syntax to save the DataFrame to a CSV file
 dataframe.to_csv("F:/Web_Scraping/star_tech_data.csv", index=False)
 
 
