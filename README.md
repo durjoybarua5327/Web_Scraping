@@ -9,10 +9,23 @@ To follow along with this tutorial, you will need to install the following Pytho
   <li>requests</li>
   <li>beautifulsoup4</li>
   <li>pandas</li>
+  <li>selenium</li>
 </ul>
 
 You can install them using <code>pip</code>:
 <pre><code>pip install requests beautifulsoup4 pandas</code></pre>
+
+### Additional Tools 🛠️
+In addition to the above libraries, you will also need to install:
+- **WebDriver**: This is necessary to control web browsers for web scraping using Selenium. The WebDriver must match the version of the web browser you're using (e.g., ChromeDriver for Google Chrome).
+
+#### Setting Up Selenium and WebDriver
+1. **Install WebDriver**:
+   - For Chrome, download [ChromeDriver](https://sites.google.com/chromium.org/driver/) and ensure it matches your Chrome version.
+   - For Firefox, download [GeckoDriver](https://github.com/mozilla/geckodriver/releases) if you're using Firefox.
+  
+2. **Add WebDriver to Your PATH**:
+   - After downloading the appropriate WebDriver, make sure to add it to your system's PATH environment variable. This allows your system to recognize `chromedriver` or `geckodriver` commands from any directory.
 
 ## What You'll Learn 🎓
 
