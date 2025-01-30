@@ -1,4 +1,3 @@
- # Import webdriver from Selenium library
 from selenium import webdriver
 
  # Import Service class to manage ChromeDriver
